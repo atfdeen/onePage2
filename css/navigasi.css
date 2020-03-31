@@ -1,0 +1,23 @@
+.navigasi ul{
+    background-color: teal;
+    list-style-type: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.navigasi li{
+    float: left;
+}
+
+.navigasi ul li a{
+    padding: 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.navigasi ul li a:hover{
+    transition: 2s;
+    background-color: black;
+}
